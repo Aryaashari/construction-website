@@ -352,8 +352,7 @@ body {
     }
 
     .history .history-img::after {
-        width: 200px;
-        height: 100px;
+        background-color: transparent;
     }
 
 }
