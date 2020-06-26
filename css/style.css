@@ -352,7 +352,7 @@ body {
     }
 
     .history .history-img::after {
-        background-color: transparent;
+        display: none;
     }
 
 }
