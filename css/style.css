@@ -377,6 +377,98 @@ body {
 }
 
 
+/* Testimoni */
+.testimoni {
+    background-color: #eaeaea;
+    padding: 30px 10px;
+    margin-top: 80px;
+}
+
+.testimoni .owl-carousel {
+    margin: auto;
+}
+
+.testimoni .title-testi {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.testimoni .item {
+    background-color: rgb(255, 168, 7);
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.testimoni .img-profile img {
+    width: 70px !important;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimoni .content-text .name-client {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.testimoni .content-text {
+    line-height: 1px;
+    margin-bottom: 10px;
+}
+
+.testimoni .content-text .lead {
+    font-size: 12px;
+    color: #292a2c;
+}
+
+.testimoni .text-testi p {
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.testimoni .content-text .garis {
+    background-color: white;
+    margin: 0;
+}
+
+.testimoni .fa-quote-right {
+    position: absolute;
+    font-size: 70px;
+    right: -15px;
+    top: 20px;
+    color: rgb(253, 190, 71);
+}
+
+.testimoni .owl-nav button i {
+    font-size: 30px;
+    color: rgb(253, 190, 71);
+    position: absolute;
+    top: 90px;
+}   
+
+.testimoni .owl-prev, .testimoni .owl-next {
+    position: absolute;
+    top: 0;
+}
+
+.testimoni .owl-prev {
+    left: -30px;
+}
+
+.testimoni .owl-next {
+    right: -20px;
+}
+
+.testimoni .owl-nav button:focus {
+    outline: none;
+}
+
+
+
+
 @media only screen and (max-width: 767px) {
     
     /* Top Bar */
@@ -474,6 +566,23 @@ body {
 
     .history .history-img::after {
         display: none;
+    }
+
+    /* Testimoni */
+    .testimoni .title-testi {
+        font-size: 28px;
+    }
+    .testimoni .owl-nav button i {
+        font-size: 25px;
+        top: 110px;
+    }   
+
+    .testimoni .owl-prev {
+        left: -20px;
+    }
+    
+    .testimoni .owl-next {
+        right: 0px;
     }
 
 }
