@@ -649,6 +649,14 @@ footer .copyright-footer .social-media a i {
         margin: 20px auto;
     }
 
+    .history .content-text {
+        order: 2;
+    }
+
+    .history .img {
+        order: 1;
+    }
+
     .history .history-title {
         text-align: center;
     }
@@ -664,6 +672,7 @@ footer .copyright-footer .social-media a i {
     .history .btn-history {
         display: flex;
         justify-content: center;
+        margin-bottom: 10px;
     }
 
     .history .history-img {
