@@ -44,4 +44,24 @@ $(document).ready(function () {
         }
     });
 
+    // Search Form
+    $('.btn-search').mouseover(function () { 
+
+        const searchValue = $('.search-input').val();
+        $(this).css("color", "white");
+        if ($('body').outerWidth(true) < 992) {
+            $('.search-input').css({"width":"85%"});
+        } else {
+            $('.search-input').css({"width":"160px"});
+        }
+        $('.search').css("background-color", "rgb(27, 27, 27)");     
+     })
+
+     $('.search').mouseleave(function () { 
+
+        $(this).css("color", "white")
+        $('.search-input').css({"width":"0px"});
+        $('.search').css("background-color", "transparent");
+      })
+
 });

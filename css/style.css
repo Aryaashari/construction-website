@@ -80,11 +80,6 @@ body {
     margin-left: 100px;
 }
 
-.navbar .search-icon i {
-    text-align: right;
-    color: white;
-    cursor: pointer;
-}
 
 .navbar .nav-link {
     margin-right: 20px;
@@ -109,6 +104,32 @@ body {
 
 .navbar .navbar-brand:hover {
     color: white;
+}
+
+.navbar .search-input {
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+    width: 0px;
+    color: white;
+}
+
+.navbar .search-input::placeholder {
+    color: white;
+}
+
+.navbar .btn-search {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.navbar .search {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: transparent;
 }
 
 /* Banner */
@@ -659,6 +680,7 @@ footer .copyright-footer .social-media a i {
     .navbar .navbar-toggler:focus {
         outline: none;
     }
+
 
     /* Banner */
     .banner .jumbotron {
